@@ -103,13 +103,13 @@ const fetchData = async () => {
           <input
             type="search"
             className="search-box"
-            placeholder="Search your cravings..." // 🔥 NEW
+            placeholder="Search your cravings..." 
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
           
          <button
-            className="search-btn" // 🔥 NEW class
+            className="search-btn" 
             onClick={() => {
               const filtered = ListOfRestaurant.filter((res) =>
                 res.info.name
